@@ -1,0 +1,8 @@
+# Turn on the rewrite engine.
+RewriteEngine on
+#Dont' apply rule to js, css etc. Expand extension as per need.
+RewriteRule (.*).(js|css|png|jpg|gif) - [S=1]
+# The RewriteCond makes it so that the rewrite rule is applied only once.
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+# QSA preserves the other GET parameters.
+RewriteRule ^(.*?)$ main.php?page=$1 [QSA]

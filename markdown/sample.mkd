@@ -1,0 +1,63 @@
+
+# Sample Page.
+
+This is a sample markdown page, with most of markdown's features displayed.
+
+This functions simultaneously as a:
+
++ Sanity Check.
++ Unit Test.
++ Showcase.
+
+Pretty neat _huh?_
+
+---
+
+# This should be H1
+
+## This should be H2
+
+### This should be H3
+
+This word should be **bold**, and this should be _italicized_.
+
+This should appear as `pre-formatted text`.
+
+> This should be a block quote.
+
+
+This is a [link](http://www.xkcd.com)
+
+Just below this should be a horizontal rule.
+
+---
+
+
+    #/usr/bin/env python
+
+    import antigravity
+
+    def W00t:
+        print "We're in a code block"
+        antigravity.activate()
+
+    if __name__ == '__main__':
+        W00t()
+
+
+This should be an ordered list:
+
+1. List item 1.
+2. List item 2.
+
+This should be an unordered list:
+
++ Item 1.
++ Item 2.
+    + Item 2.1
+    + Item 2.2
+
+   
+---
+
+##### This sample brought to you by [ffledgling](https://github.com/ffledgling/)

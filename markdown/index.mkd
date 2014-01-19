@@ -1,0 +1,6 @@
+# Default Index
+
+If everything works correctly, you should see this in *italics*.
+
+Try out [sample](./sample) for the full flavour.
+
