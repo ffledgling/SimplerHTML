@@ -1,6 +1,12 @@
 # Turn on the rewrite engine.
 RewriteEngine on
-#Dont' apply rule to js, css etc. Expand extension as per need.
+
+# You might want to set your RewriteBase, for example if using server/~user/Notes/
+# You can/must do RewriteBase /~user/Notes/,
+# see https://issues.apache.org/bugzilla/show_bug.cgi?id=36509
+
+#RewriteBase <something>
+# Dont' apply rule to js, css etc. Expand extension as per need.
 RewriteRule (.*).(js|css|png|jpg|gif) - [S=1]
 # The RewriteCond makes it so that the rewrite rule is applied only once.
 RewriteCond %{ENV:REDIRECT_STATUS} ^$
