@@ -42,5 +42,11 @@ if($file_contents == false){
     </head>
     <body onload="injectMarkdown()">
     <div id="md"></div>
+    <?php
+        // Auto-generate file-list
+        if($filename==$DEFAULT_PAGE){
+            include("filelist.php");
+        }
+    ?>
     </body>
 </html>
