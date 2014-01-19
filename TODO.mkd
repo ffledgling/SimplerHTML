@@ -2,7 +2,7 @@ List of TODOs
 -------------
 
 1. Add support for generic header, footer, nav bar.
-2. Add support for automatically generated index of pages. 
+2. Improve support for automatically generated index of pages.
 3. Make the code more generic.
     1. Remove dependence on Apache.
     2. Remove dependence on mod\_rewrite.
